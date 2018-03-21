@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+
+
+        <!--jQuery library--> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
+        <!--Latest compiled and minified JavaScript--> 
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Images in Bootstrap</title>
+    </head>
+    <body>
+        <div class="container">
+            
+            <div class="row">
+				<div class="col-xs-6">
+					<h3>Image</h3>
+					<img src="data:image/png;base64,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" class="img-responsive img-thumbnail" alt="GOOD">
+				</div>
+			</div>
+		</div>
+	</body>
+           
+</html>
